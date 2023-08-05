@@ -1,0 +1,91 @@
+.container{
+  @apply
+  w-[100%]
+  sm:w-[80%]  
+  pt-[36px]
+  /* pe-[14px]
+  ps-[14px] */
+  m-auto  
+  relative  
+  bg-white
+}
+
+/* LISTA */
+.list{
+  @apply  
+  flex-col
+  w-full
+  h-auto  
+  mt-20  
+}
+.itemsList{
+  @apply   
+  m-auto
+  w-full
+  flex   
+  gap-4
+  justify-center
+  flex-wrap
+  p-2  
+}
+.btncontainer{
+  @apply  
+  w-[40%]    
+  mb-[14px]  
+  relative          
+  opacity-95  
+}
+.btncontainer:hover{
+  @apply
+  opacity-100
+}
+.cover{
+  @apply  
+  w-full
+  h-full  
+  rounded-[14px]  
+}
+.gradientCover{
+  @apply
+  relative
+  w-full
+  h-[300px]
+  rounded-[14px]    
+}
+.info{
+  @apply
+  w-full
+  h-full
+  absolute 
+  flex
+  flex-col
+  p-3
+  items-start
+  justify-end
+  bottom-0
+  rounded-[14px]  
+  z-[99]  
+  /* bg-gradient-to-b from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,0.90)] */
+}
+.name{
+  @apply
+  text-[#fff]
+  text-[14px]
+  font-bold
+}
+.description{
+  @apply
+  text-[#fff]
+  text-[10px]
+}
+.gradient{
+  @apply
+  absolute
+  h-full
+  left-0
+  right-0
+  bottom-0    
+  rounded-[14px]
+  z-[1]   
+  bg-gradient-to-b from-[rgba(0,0,0,0.1)] to-[rgba(0,0,0,0.60)]  
+}

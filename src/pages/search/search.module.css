@@ -1,0 +1,111 @@
+/* LISTA */
+.list{
+  @apply  
+  relative  
+  w-full  
+  flex
+  flex-col  
+  items-center    
+  bg-[#f3f9ff]
+}
+.listTop{
+  @apply
+  relative
+  top-0
+  left-[50%] 
+  translate-x-[-50%]
+  w-full
+  h-[54px]   
+  rounded-bl-[32px]  
+  rounded-br-[32px]  
+  flex
+  items-center
+  justify-center 
+  bg-[#4cb36ca1]
+  z-99
+}
+.return{
+  @apply
+  absolute
+  top-2
+  right-5
+}
+.textTopList{
+  @apply
+  text-white
+  text-[24px]
+  font-bold
+  tracking-[5px]
+}
+.view{
+  @apply    
+  mt-[14px]  
+  w-full        
+  bg-white  
+}
+.listContainer{
+  @apply    
+  bg-[#f3f9ff]
+  p-2
+  flex
+  items-center 
+  flex-col 
+  gap-2  
+}
+.cover{
+  @apply  
+  w-[35%]
+  rounded-[14px] 
+  p-2     
+}
+.itemDescription{
+  @apply
+  w-full
+  flex
+  flex-col  
+  rounded-[14px]
+  p-2    
+  /* items-center         */
+  mb-[14px]  
+}
+.itemDescription ul{
+  @apply  
+  w-full    
+  flex  
+}
+.itemDescription li{
+  @apply  
+  w-full  
+  flex
+  justify-center
+  h-[25px]
+  mb-[10px]  
+  text-[14px]  
+}
+.itemDescription h2{
+  @apply
+  text-[24px]
+  font-bold  
+  text-center
+}
+.itemDescription h1{
+  @apply
+  text-center
+  text-[#000]
+  mt-[4px]
+  mb-[14px]
+  text-[14px]
+  font-bold
+  uppercase  
+}
+
+.ulInstructions{
+  @apply
+  w-full
+}
+.footer{
+  @apply
+  w-full
+    
+  left-0
+}

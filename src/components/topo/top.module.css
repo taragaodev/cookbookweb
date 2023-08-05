@@ -1,0 +1,67 @@
+.container{
+  @apply
+  h-[180px]
+  pl-8  
+  flex
+  flex-col  
+  relative  
+}
+.top{
+  @apply  
+  flex   
+  w-[18%]  
+  bg-[#4cb36c] 
+  self-start
+  p-[8px]
+  pl-[16px]
+  pr-[20px]
+  rounded-tr-[8px]  
+  rounded-bl-[8px]
+  rounded-tl-[8px]
+  rounded-br-[32px]  
+  mb-[8px]  
+  shadow-md
+}
+.topText{  
+  @apply
+  text-[#fff]
+  text-[18px]
+  font-bold  
+  tracking-[1px]  
+}
+.form{
+  @apply
+  absolute
+  right-8
+  bottom-0
+  w-[50%]
+  flex  
+  bg-[#fff]
+  pl-32
+  pr-3  
+  rounded-lg  
+  flex-row
+  items-center
+  justify-between
+  shadow-md
+}
+.form input{
+  @apply
+  w-full  
+  text-[14px]
+  max-w-full
+  h-[35px] 
+  outline-none 
+}
+.form button{
+  @apply
+  ml-[14px]
+}
+.title{
+  @apply  
+  text-[24px]
+  tracking-[5px]
+  font-bold
+  text-[#555]
+  mb-[14px]
+}

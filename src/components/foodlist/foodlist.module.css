@@ -1,0 +1,26 @@
+.container{
+  @apply
+  mb-[14px]
+}
+.cover{
+  @apply
+  w-full
+  h-[200px]
+  rounded-[14px]
+}.info{
+  @apply
+  absolute
+  bottom-[14px]
+  left-[14px]
+  z-[99]
+}
+.name{
+  @apply
+  text-[18px]
+  text-white
+  font-bold
+}
+.description{
+  @apply
+  text-white
+}

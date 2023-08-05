@@ -1,0 +1,49 @@
+.containert{
+  @apply    
+  w-full
+  /* sm:w-[80%] */
+  h-[54px]
+  pt-[36px]  
+  m-auto
+  relative
+  bg-[#4cb36ca1]
+  rounded-br-[32px]
+  rounded-bl-[32px]
+}
+.container{
+  @apply
+  h-[180px]
+  pl-8  
+  flex
+  flex-col  
+  relative  
+}
+.top{
+  @apply  
+  flex   
+  items-center
+  justify-center
+  w-[48%]  
+  bg-[#4cb36c] 
+  self-center
+  p-1
+  /* pl-[16px]
+  pr-[16px] */
+  rounded-tr-[8px]  
+  rounded-bl-[32px]
+  rounded-tl-[8px]
+  rounded-br-[32px]    
+  shadow-md
+}
+.topText{  
+  @apply
+  text-[#fff]
+  text-[18px]
+  font-bold  
+  tracking-[1px]  
+}
+.return{
+  @apply
+  absolute
+  right-5  
+}

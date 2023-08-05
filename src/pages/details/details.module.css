@@ -1,0 +1,51 @@
+/* LISTA */
+.container{
+  @apply
+  flex
+  flex-col
+  w-full    
+}
+.content{
+  @apply
+  relative
+  flex
+  flex-col
+  items-center  
+  w-full
+  bg-[#f3f9ff]  
+}
+.return{
+  @apply
+  absolute  
+  top-2
+  right-5  
+}
+.cover{
+  @apply
+  flex
+  p-8  
+  items-center
+  justify-center
+}
+.recipe{
+  @apply
+  w-[50%]
+  mb-[14px]
+  flex
+  flex-col
+  gap-2
+  items-center    
+}
+.recipe h1{
+  @apply
+  mt-[14px]
+  mb-[14px]
+  uppercase
+  text-black
+  font-bold
+  text-[14px]
+}
+.recipe ul li{
+  @apply
+  text-[12px]
+}

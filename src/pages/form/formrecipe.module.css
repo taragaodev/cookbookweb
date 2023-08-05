@@ -1,0 +1,174 @@
+.container{
+  @apply
+  flex-1
+  flex-col
+  m-auto
+  justify-center  
+  w-[60%]     
+  p-5  
+}
+.image{
+  @apply
+  flex
+  items-center
+  justify-end
+  w-full  
+  h-full
+  absolute
+  top-0
+  left-0  
+  z-[-1]
+}
+.image img{
+  @apply  
+  absolute
+  right-[5%]
+  w-[30%]  
+  opacity-[50%]
+  rotate-12
+}
+.container h2{
+  @apply
+  text-[#fff]
+  text-[18px]
+  uppercase
+  tracking-[5px]
+}
+.formGroup{
+  @apply
+  flex
+  flex-col
+  justify-center  
+  bg-[#4cbe6c8f]  
+  p-8
+  mb-8
+  relative
+}
+.formGroup label{
+  @apply
+  mt-[15px]
+  text-[#fff]
+  mb-[5px]    
+}
+.formGroup input{
+  @apply
+  w-[60%] 
+  h-[40px]
+  rounded-[15px] 
+  p-2
+  text-[14px]   
+  /* outline-none  */
+}
+.inputError{
+  @apply
+  /* border-2  
+  border-red-600 */
+  outline-dashed
+  outline-2 
+  outline-red-700
+}
+.inputError::-webkit-input-placeholder{
+  @apply  
+  text-red-600    
+}
+.btnForm{
+  @apply
+  flex
+  justify-end  
+  w-full  
+}
+.btnForm button{
+  @apply
+  w-[200px]
+  h-[40px]
+  rounded-lg
+  bg-[#4cbe6c]
+  text-[#fff]
+  font-bold
+  text-[14px]
+  uppercase
+}
+.container{
+  @apply
+  flex-1
+  flex-col
+  m-auto
+  justify-center  
+  w-[60%]     
+  p-5  
+}
+.areaBtnAdd{
+  @apply
+  w-full
+  h-[40px]  
+  flex
+  justify-end
+  items-center
+  p-3  
+}
+.btnAdd{
+  @apply
+  flex
+  items-center
+  justify-center
+  rounded-full
+  p-2
+  w-[30px]
+  h-[30px]  
+  bg-[#4cbe6c]  
+}
+.btnAdd svg path{
+  @apply
+  stroke-[#fff]
+}
+input[type="file"]{
+  @apply
+  bg-green-400
+  hidden
+}
+.labelCover{
+  @apply
+  bg-[#f3f9ff]  
+  w-[100px]
+  rounded-[5px]  
+  cursor-pointer  
+  p-[6px]
+  text-black !important
+}
+
+
+/* LISTA */
+.listIngredients{
+  @apply
+  w-full
+  flex-row
+  mb-5
+  /* bg-[#f3f9ff]   */
+}
+.listIngredients ul li{
+  @apply
+  flex  
+  items-center  
+  justify-around
+  h-7
+  p-2
+  m-1
+} 
+.listIngredients:nth-child(odd){
+  @apply
+  bg-green-400
+}
+.listIngredients:nth-child(even){
+  @apply
+  bg-green-950
+  text-white
+}
+
+.btnListItem{
+  @apply
+  w-full  
+}
+.btnListItem ul:hover{
+  @apply
+  opacity-[50%]
+}
